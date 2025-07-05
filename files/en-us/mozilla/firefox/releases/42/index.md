@@ -2,9 +2,8 @@
 title: Firefox 42 for developers
 slug: Mozilla/Firefox/Releases/42
 page-type: firefox-release-notes
+sidebar: firefox
 ---
-
-{{FirefoxSidebar}}
 
 [To test the latest developer features of Firefox, install Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/) Firefox 42 was released on November 3, 2015. This article lists key changes that are useful not only for web developers, but also Firefox and Gecko developers as well as add-on developers.
 
@@ -45,7 +44,6 @@ Highlights:
 - Images with an [`id`](/en-US/docs/Web/HTML/Reference/Elements/img#id) are no more listed as property of the {{domxref("Window")}} interface: `<img id="login">` isn't accessible as `window.login` anymore. This behavior was introduced in Firefox 26 and has been removed to match a later change in the spec. ([Firefox bug 959992](https://bugzil.la/959992))
 - {{domxref('MouseEvent.offsetX')}} and {{domxref('MouseEvent.offsetY')}} have been added ([Firefox bug 69787](https://bugzil.la/69787)).
 - The {{domxref("HTMLInputElement")}} interface has been experimentally extended to handle the upload of directories ([Firefox bug 1164310](https://bugzil.la/1164310)). These four members can be exposed by setting the `dom.input.dirpicker` preference to `true`:
-
   - `HTMLInputElement.directory`
   - `HTMLInputElement.isFilesAndDirectoriesSupported`
   - `HTMLInputElement.getFilesAndDirectories()`

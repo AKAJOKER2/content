@@ -1,5 +1,6 @@
 ---
-title: class
+title: HTML class global attribute
+short-title: class
 slug: Web/HTML/Reference/Global_attributes/class
 page-type: html-attribute
 browser-compat: html.global_attributes.class
@@ -28,11 +29,11 @@ The **`class`** [global attribute](/en-US/docs/Web/HTML/Reference/Global_attribu
 }
 
 .editorial {
-  background: rgb(255, 0, 0, 0.25);
+  background: rgb(255 0 0 / 0.25);
   padding: 10px;
 }
 
-.editorial:before {
+.editorial::before {
   content: "Editor: ";
 }
 ```

@@ -3,12 +3,10 @@ title: "PublicKeyCredential: signalCurrentUserDetails() static method"
 short-title: signalCurrentUserDetails()
 slug: Web/API/PublicKeyCredential/signalCurrentUserDetails_static
 page-type: web-api-static-method
-status:
-  - experimental
 browser-compat: api.PublicKeyCredential.signalCurrentUserDetails_static
 ---
 
-{{APIRef("Web Authentication API")}}{{securecontext_header}}{{seecompattable}}
+{{APIRef("Web Authentication API")}}{{securecontext_header}}
 
 The **`signalCurrentUserDetails()`** static method of the {{domxref("PublicKeyCredential")}} interface signals to the authenticator that a particular user has updated their user name and/or display name on the [relying party](https://en.wikipedia.org/wiki/Relying_party) (RP) server.
 
@@ -66,7 +64,7 @@ if (PublicKeyCredential.signalCurrentUserDetails) {
     rpId: "example.com",
     userId: "M2YPl-KGnA8", // base64url-encoded user ID
     name: "a.new.email.address@example.com", // username
-    displayName: "John Doe",
+    displayName: "Maria Sanchez",
   });
 } else {
   // Encourage the user to update their details in the authenticator

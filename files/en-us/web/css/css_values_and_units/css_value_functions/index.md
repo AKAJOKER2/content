@@ -10,7 +10,7 @@ page-type: guide
 
 ## Syntax
 
-```css
+```plain
 selector {
   property: function([argument]? [, argument]!);
 }
@@ -202,6 +202,8 @@ The {{CSSxRef("color_value","&lt;color&gt;")}} CSS [data type](/en-US/docs/Web/C
   - : Specifies a particular, specified colorspace rather than the implicit sRGB colorspace.
 - {{CSSxRef("color_value/color-mix", "color-mix()")}}
   - : Mixes two color values in a given colorspace by a given amount.
+- {{CSSxRef("color_value/contrast-color", "contrast-color()")}}
+  - : Returns a color with maximum color contrast for a given color.
 - {{CSSxRef("color_value/device-cmyk", "device-cmyk()")}}
   - : Defines CMYK colors in a device-dependent way.
 - {{CSSXref("color_value/light-dark", "light-dark()")}}
@@ -281,6 +283,8 @@ The following functions are used as a value of properties to reference a value d
   - : Uses the attributes defined on HTML element.
 - {{CSSxRef("env", "env()")}}
   - : Uses the user-agent defined as environment variable.
+- {{CSSxRef("if", "if()")}}
+  - : Conditionally sets a property value depending on the result of a [style query](/en-US/docs/Web/CSS/CSS_containment/Container_size_and_style_queries#container_style_queries), [media query](/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries), or [feature query](/en-US/docs/Web/CSS/CSS_conditional_rules/Using_feature_queries).
 - {{cssxref("url_function", "url()")}}
   - : Uses a file from the specified URL.
 - {{CSSxRef("var", "var()")}}

@@ -66,7 +66,7 @@ If the {{HTMLElement("source")}}'s media condition evaluates to `false`, the bro
 
 ```html
 <picture>
-  <source srcset="mdn-logo-wide.png" media="(min-width: 600px)" />
+  <source srcset="mdn-logo-wide.png" media="(width >= 600px)" />
   <img src="mdn-logo-narrow.png" alt="MDN" />
 </picture>
 ```
@@ -161,7 +161,7 @@ The `type` attribute specifies a [MIME type](/en-US/docs/Web/HTTP/Guides/MIME_ty
     <tr>
       <th scope="row">Implicit ARIA role</th>
       <td>
-        <a href="https://www.w3.org/TR/html-aria/#dfn-no-corresponding-role"
+        <a href="https://w3c.github.io/html-aria/#dfn-no-corresponding-role"
           >No corresponding role</a
         >
       </td>

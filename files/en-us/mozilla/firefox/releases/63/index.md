@@ -2,9 +2,8 @@
 title: Firefox 63 for developers
 slug: Mozilla/Firefox/Releases/63
 page-type: firefox-release-notes
+sidebar: firefox
 ---
-
-{{FirefoxSidebar}}
 
 This article provides information about the changes in Firefox 63 that will affect developers. Firefox 63 was released on October 23, 2018.
 
@@ -73,7 +72,6 @@ _No changes._
 #### DOM
 
 - The following portions of the {{domxref("Web_Animations_API", "Web Animations API", "", "1")}} have been enabled by default (see [Firefox bug 1476158](https://bugzil.la/1476158)):
-
   - The {{DOMxRef("Animation")}} properties {{DOMxRef("Animation.ready", "ready")}} and {{DOMxRef("Animation.finished", "finished")}}, specifying the `Animation` object's `ready` and `finished` {{JSxRef("Promise")}}s.
   - The {{DOMxRef("Animation")}} object's {{DOMxRef("Animation.effect", "effect")}} property.
   - The interfaces {{DOMxRef("KeyframeEffect")}} and {{DOMxRef("AnimationEffect")}}.
@@ -171,7 +169,6 @@ _No changes._
 - {{WebExtAPIRef("browserAction.getBadgeTextColor()")}} and {{WebExtAPIRef("browserAction.setBadgeTextColor()")}} enable you to get and set the text color of browser action badges ([Firefox bug 1424620](https://bugzil.la/1424620)).
 - The theme `colors` key in `manifest.json` now supports the `ntp_text` property to set the text color in a new tab, and the `ntp_background` property to set the color of a new tab ([Firefox bug 1347204](https://bugzil.la/1347204)).
 - Themes can now define the colors for sidebars, such as the bookmarks sidebar ([Firefox bug 1418602](https://bugzil.la/1418602)). The relevant properties include:
-
   - `sidebar`: The background color for sidebars.
   - `sidebar_text`: The text color for sidebars.
   - `sidebar_highlight`: The background color of a selected item in a sidebar.
